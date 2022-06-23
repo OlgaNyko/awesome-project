@@ -20,9 +20,11 @@ li {
   margin: 0;
   padding: 0;
 }
-.weather-app {
+.weather-app-wrapper {
   max-width: 600px;
   margin: 30px 0 auto;
+}
+.weather-app {
   padding: 20px;
   border: 1px solid #878787;
   background: radial-gradient(
@@ -31,4 +33,21 @@ li {
     rgb(234, 236, 255) 90%
   );
   border-radius: 10px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
