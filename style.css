@@ -4,9 +4,9 @@ body {
 h1 {
   font-size: 54px;
   line-height: 35px;
-  color: #085ed6;
   max-width: 600px;
   margin: 20px auto;
+  color: #085ed6;
 }
 h2 {
   font-size: 34px;
@@ -47,11 +47,6 @@ small {
 .weather-app {
   padding: 20px;
   border: 1px solid #878787;
-  background: radial-gradient(
-    621px at 25.3% 13.8%,
-    rgb(255, 255, 255) 0%,
-    rgb(234, 236, 255) 90%
-  );
   border-radius: 10px;
 }
 .weather-temperature #fahrenheit-link,
