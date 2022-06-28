@@ -6,7 +6,7 @@ h1 {
   line-height: 35px;
   max-width: 600px;
   margin: 20px auto;
-  color: #085ed6;
+  color: #ec6e4c;
 }
 h2 {
   font-size: 34px;
@@ -15,7 +15,7 @@ h2 {
   margin-bottom: 0;
 }
 h2:hover {
-  color: #085ed6;
+  color: #ec6e4c;
 }
 ul {
   margin: 0;
@@ -37,6 +37,12 @@ small {
   max-width: 600px;
   margin: 0 auto;
   display: block;
+}
+a {
+  color: #ec6e4c;
+}
+a:hover {
+  color: #ec6e4c;
 }
 .weather-app-wrapper {
   max-width: 600px;
